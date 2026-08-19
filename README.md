@@ -1,19 +1,19 @@
 # grok-build-ager
 
-AGER → **Grok Build** translator plugin.
+AGER translator. Compiles a validated bundle into **one tree** every host can load.
 
-Grok Build loads Claude plugin layout with zero config. Identity is pinned in `.grok-plugin/marketplace.json`.
+A host gets a manifest, never a fork. See [docs/HOSTS.md](docs/HOSTS.md).
 
-Author graphs with [`okf-agent-graph`](https://github.com/SpillwaveSolutions/okf-agent-graph). This plugin only compiles.
-
-## Use
-
-```
-/ager-to-grok-build
-```
+| Host | Reads |
+| --- | --- |
+| **Agent Plugins 1.0** | [`plugin.json`](plugin.json) + `skills/` |
+| **Grok Build** | Claude layout (zero-config) + `.grok-plugin/` |
+| **Claude Code** | `.claude-plugin/` |
+| **Codex** | `.codex-plugin/` (`$ager-to-grok-build`) |
+| **Cursor** | Agent Plugins 1.0 + [hosts/cursor/SKILL.md](hosts/cursor/SKILL.md) |
 
 ```bash
-python3 scripts/emit.py --bundle path/to/sample-ager --out ./generated/grok-build
+python3 scripts/emit.py --bundle path/to/sample-ager --out ./generated
 ```
 
 ## License

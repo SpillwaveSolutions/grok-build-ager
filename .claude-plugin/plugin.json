@@ -1,7 +1,7 @@
 {
   "name": "grok-build-ager",
-  "version": "0.1.0",
-  "description": "AGER → Grok Build translator (Claude-compatible plugin layout).",
+  "version": "0.2.0",
+  "description": "AGER → Grok Build translator. Same tree also loads on Claude Code, Codex, Cursor, Agent Plugins 1.0.",
   "author": {"name": "Rick Hightower", "url": "https://github.com/RichardHightower"},
   "homepage": "https://github.com/SpillwaveSolutions/grok-build-ager",
   "repository": "https://github.com/SpillwaveSolutions/grok-build-ager",
