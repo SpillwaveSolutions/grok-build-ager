@@ -1,0 +1,7 @@
+{
+  "name": "grok-build-ager",
+  "version": "0.1.0",
+  "description": "AGER translation plugin for Grok Build",
+  "host": "grok-build",
+  "ager_version": "0.3.0"
+}
