@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "grok-build-ager-marketplace",
+  "owner": {
+    "name": "Rick Hightower",
+    "url": "https://github.com/RichardHightower"
+  },
+  "plugins": [
+    {
+      "name": "grok-build-ager",
+      "source": "./",
+      "description": "Translate a validated AGER/OKF AgentGraph into a Grok Build plugin. Multi-host: Claude Code, Grok Build, Codex, Cursor, Agent Plugins 1.0.",
+      "version": "0.1.0"
+    }
+  ]
+}

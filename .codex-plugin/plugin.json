@@ -1,18 +1,41 @@
 {
   "name": "grok-build-ager",
-  "version": "0.2.0",
-  "description": "Compile AGER graphs into a multi-host plugin ($ager-to-grok-build).",
-  "author": {"name": "Rick Hightower", "url": "https://github.com/RichardHightower"},
+  "version": "0.1.0",
+  "description": "Translate a validated AGER/OKF AgentGraph into a Grok Build plugin. Multi-host: Claude Code, Grok Build, Codex, Cursor, Agent Plugins 1.0.",
+  "author": {
+    "name": "Rick Hightower",
+    "url": "https://github.com/RichardHightower"
+  },
   "homepage": "https://github.com/SpillwaveSolutions/grok-build-ager",
   "repository": "https://github.com/SpillwaveSolutions/grok-build-ager",
   "license": "MIT",
+  "keywords": [
+    "ager",
+    "okf",
+    "grok-build",
+    "claude-code",
+    "codex",
+    "cursor",
+    "agent-plugins",
+    "codegen",
+    "translator"
+  ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "AGER → Grok Build",
+    "displayName": "grok-build-ager",
+    "shortDescription": "Translate a validated AGER/OKF AgentGraph into a Grok Build plugin. Multi-host: Claude Code, Grok Build, Codex, Cursor, Agent Plugins 1.0.",
+    "longDescription": "Translate a validated AGER/OKF AgentGraph into a Grok Build plugin. Multi-host: Claude Code, Grok Build, Codex, Cursor, Agent Plugins 1.0.",
     "developerName": "Spillwave Solutions",
     "category": "Developer Tools",
-    "capabilities": ["Read", "Write"],
-    "defaultPrompt": ["Compile this AGER graph with $ager-to-grok-build."],
-    "brandColor": "#7C3AED"
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/SpillwaveSolutions/grok-build-ager",
+    "defaultPrompt": [
+      "Run /ager-to-grok-build on the AGER bundle in this workspace.",
+      "Compile the graph. Do not author a new AGER graph."
+    ],
+    "brandColor": "#111827"
   }
 }

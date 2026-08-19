@@ -1,11 +1,16 @@
-# Hosts — grok-build-ager
+# Host matrix
 
-A host gets a **manifest**, never a fork.
+`grok-build-ager` is one plugin, five install surfaces. Skills live once under `skills/`.
 
-| Host | What it reads |
-| --- | --- |
-| Agent Plugins 1.0 | `plugin.json` + `skills/` |
-| Grok Build | Claude layout + `.grok-plugin/` |
-| Claude Code | `.claude-plugin/` |
-| Codex | `.codex-plugin/` |
-| Cursor | Agent Plugins 1.0 + `hosts/cursor/SKILL.md` |
+| Host | Manifest | Install |
+| --- | --- | --- |
+| Agent Plugins 1.0 | `plugin.json` | any host that reads agent-plugins.org |
+| Claude Code | `.claude-plugin/plugin.json` + `marketplace.json` | `claude plugin marketplace add SpillwaveSolutions/grok-build-ager` |
+| Grok Build | `.grok-plugin/marketplace.json` (Claude layout is zero-config) | drop into workspace / Claude marketplace |
+| Codex | `.codex-plugin/plugin.json` | `codex plugin marketplace add SpillwaveSolutions/grok-build-ager` |
+| Cursor | `.cursor-plugin/plugin.json` + `.cursor/rules/` | `/plugin install grok-build-ager` |
+
+Command on Claude/Grok: `/ager-to-grok-build`
+Command on Codex: `$ager-to-grok-build`
+
+Depends on `okf-agent-graph` for author/validate. This plugin only compiles.

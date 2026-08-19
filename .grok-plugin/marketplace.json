@@ -1,13 +1,24 @@
 {
   "name": "grok-build-ager-marketplace",
-  "description": "AGER translator. Grok Build loads the Claude plugin layout with zero config.",
-  "version": "0.2.0",
-  "plugins": [{
-    "name": "grok-build-ager",
-    "source": ".",
-    "version": "0.2.0",
-    "compatibility": {"claude_plugin": true, "zero_config": true},
-    "depends_on": [{"plugin": "okf-agent-graph", "repository": "https://github.com/SpillwaveSolutions/okf-agent-graph"}],
-    "repository": "https://github.com/SpillwaveSolutions/grok-build-ager"
-  }]
+  "description": "Translate a validated AGER/OKF AgentGraph into a Grok Build plugin. Multi-host: Claude Code, Grok Build, Codex, Cursor, Agent Plugins 1.0. Grok Build loads the Claude layout with zero config.",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "grok-build-ager",
+      "source": ".",
+      "description": "Translate a validated AGER/OKF AgentGraph into a Grok Build plugin. Multi-host: Claude Code, Grok Build, Codex, Cursor, Agent Plugins 1.0.",
+      "version": "0.1.0",
+      "compatibility": {
+        "claude_plugin": true,
+        "zero_config": true
+      },
+      "depends_on": [
+        {
+          "plugin": "okf-agent-graph",
+          "repository": "https://github.com/SpillwaveSolutions/okf-agent-graph"
+        }
+      ],
+      "repository": "https://github.com/SpillwaveSolutions/grok-build-ager"
+    }
+  ]
 }

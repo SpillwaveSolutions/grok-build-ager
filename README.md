@@ -12,6 +12,13 @@ A host gets a manifest, never a fork. See [docs/HOSTS.md](docs/HOSTS.md).
 | **Codex** | `.codex-plugin/` (`$ager-to-grok-build`) |
 | **Cursor** | Agent Plugins 1.0 + [hosts/cursor/SKILL.md](hosts/cursor/SKILL.md) |
 
+## Use
+
+```
+/ager-to-grok-build
+$ager-to-grok-build
+```
+
 ```bash
 python3 scripts/emit.py --bundle path/to/sample-ager --out ./generated
 ```

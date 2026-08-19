@@ -1,9 +1,23 @@
 {
   "name": "grok-build-ager",
-  "version": "0.2.0",
-  "description": "AGER → Grok Build translator. Same tree also loads on Claude Code, Codex, Cursor, Agent Plugins 1.0.",
-  "author": {"name": "Rick Hightower", "url": "https://github.com/RichardHightower"},
+  "version": "0.1.0",
+  "description": "Translate a validated AGER/OKF AgentGraph into a Grok Build plugin. Multi-host: Claude Code, Grok Build, Codex, Cursor, Agent Plugins 1.0.",
+  "author": {
+    "name": "Rick Hightower",
+    "url": "https://github.com/RichardHightower"
+  },
   "homepage": "https://github.com/SpillwaveSolutions/grok-build-ager",
   "repository": "https://github.com/SpillwaveSolutions/grok-build-ager",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "ager",
+    "okf",
+    "grok-build",
+    "claude-code",
+    "codex",
+    "cursor",
+    "agent-plugins",
+    "codegen",
+    "translator"
+  ]
 }
