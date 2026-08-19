@@ -1,0 +1,9 @@
+{
+  "name": "grok-build-ager",
+  "version": "0.1.0",
+  "description": "AGER → Grok Build translator (Claude-compatible plugin layout).",
+  "author": {"name": "Rick Hightower", "url": "https://github.com/RichardHightower"},
+  "homepage": "https://github.com/SpillwaveSolutions/grok-build-ager",
+  "repository": "https://github.com/SpillwaveSolutions/grok-build-ager",
+  "license": "MIT"
+}

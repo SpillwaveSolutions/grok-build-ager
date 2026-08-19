@@ -1,0 +1,6 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "grok-build-ager-marketplace",
+  "owner": {"name": "Rick Hightower", "url": "https://github.com/RichardHightower"},
+  "plugins": [{"name": "grok-build-ager", "source": "./", "description": "AGER → Grok Build translator.", "version": "0.1.0", "category": "productivity"}]
+}

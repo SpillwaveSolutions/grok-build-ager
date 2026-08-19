@@ -1,7 +1,14 @@
 {
-  "name": "grok-build-ager",
+  "name": "grok-build-ager-marketplace",
+  "description": "AGER → Grok Build translator. Grok Build also loads the Claude plugin layout with zero config.",
   "version": "0.1.0",
-  "description": "AGER translation plugin for Grok Build",
-  "host": "grok-build",
-  "ager_version": "0.3.0"
+  "plugins": [{
+    "name": "grok-build-ager",
+    "source": ".",
+    "description": "Compile AGER graphs into Grok Build skills, AGENTS.md, and Claude-compatible plugin files.",
+    "version": "0.1.0",
+    "compatibility": {"claude_plugin": true, "zero_config": true},
+    "depends_on": [{"plugin": "okf-agent-graph", "repository": "https://github.com/SpillwaveSolutions/okf-agent-graph"}],
+    "repository": "https://github.com/SpillwaveSolutions/grok-build-ager"
+  }]
 }

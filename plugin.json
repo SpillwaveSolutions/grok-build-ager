@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "grok-build-ager",
+  "version": "0.1.0",
+  "description": "Translate a validated AGER/OKF AgentGraph into a Grok Build plugin (Claude-compatible layout + .grok-plugin identity).",
+  "author": {"name": "Rick Hightower", "url": "https://github.com/RichardHightower"},
+  "homepage": "https://github.com/SpillwaveSolutions/grok-build-ager",
+  "repository": "https://github.com/SpillwaveSolutions/grok-build-ager",
+  "license": "MIT",
+  "keywords": ["ager", "okf", "grok-build", "translator"]
+}
