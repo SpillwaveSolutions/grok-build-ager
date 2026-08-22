@@ -1,13 +1,13 @@
 {
   "name": "grok-build-ager-marketplace",
   "description": "Translate a validated AGER/OKF AgentGraph into a Grok Build plugin. Multi-host: Claude Code, Grok Build, Codex, Cursor, Agent Plugins 1.0. Grok Build loads the Claude layout with zero config.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "plugins": [
     {
       "name": "grok-build-ager",
       "source": ".",
       "description": "Translate a validated AGER/OKF AgentGraph into a Grok Build plugin. Multi-host: Claude Code, Grok Build, Codex, Cursor, Agent Plugins 1.0.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "compatibility": {
         "claude_plugin": true,
         "zero_config": true

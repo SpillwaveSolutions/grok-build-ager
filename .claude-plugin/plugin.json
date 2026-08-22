@@ -1,6 +1,6 @@
 {
   "name": "grok-build-ager",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Translate a validated AGER/OKF AgentGraph into a Grok Build plugin. Multi-host: Claude Code, Grok Build, Codex, Cursor, Agent Plugins 1.0.",
   "author": {
     "name": "Rick Hightower",
@@ -18,6 +18,8 @@
     "cursor",
     "agent-plugins",
     "codegen",
-    "translator"
+    "translator",
+    "worklog",
+    "wiki-ticket-sdd"
   ]
 }
